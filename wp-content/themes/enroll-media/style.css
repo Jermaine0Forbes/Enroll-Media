@@ -1,0 +1,321 @@
+/*
+Template: wp-bootstrap-starter
+Theme Name: Enroll Media
+Theme URI: https://afterimagedesigns.com/wp-bootstrap-starter/
+Author: Afterimage Designs
+Author URI: https://afterimagedesigns.com/
+Description:  The best WordPress starter theme based on the most powerful frameworks in the world: "_s" (by Automattic, the main people behind WordPress development), Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Font Awesome (or Fontawesome, a full suite of 675+ pictographic icons for easy scalable vector graphics on websites). This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Starter Theme Bootstrap will be highly appreciated. Page templates includes Right-sidebar (default page template), Left-Sidebar, Full-Width, Blank with container, Blank without container Page. Other features - Currently using Bootstrap v4.0.0-beta.2 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
+Version: 3.0.5
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: wp-bootstrap-starter
+Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
+*/
+.no-pad {
+  padding: 0; }
+
+.fluid {
+  width: 100%; }
+
+.container {
+  max-width: 1200px; }
+
+.container.wide {
+  max-width: 1400px; }
+
+.container.wider {
+  max-width: 1600px; }
+
+.container.widest {
+  max-width: 1800px; }
+
+.container.slim {
+  max-width: 1000px; }
+
+.container.slimmer {
+  max-width: 800px; }
+
+.container.slimmest {
+  max-width: 600px; }
+
+.basic-btn {
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 3px solid #658113;
+  margin: 1em 0;
+  padding: .3em 1.5em;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  border-radius: 5px;
+  display: inline-block;
+  color: #658113; }
+  .basic-btn:hover {
+    background-color: #658113;
+    color: white; }
+    .basic-btn:hover a {
+      color: white; }
+  .basic-btn.white {
+    color: white;
+    border: 3px solid white; }
+    .basic-btn.white:hover {
+      background-color: white;
+      color: #658113; }
+      .basic-btn.white:hover a {
+        color: #658113; }
+  .basic-btn.lite-green {
+    color: #dff2a6;
+    border: 3px solid #dff2a6; }
+    .basic-btn.lite-green:hover {
+      background-color: #dff2a6;
+      color: #658113; }
+      .basic-btn.lite-green:hover a {
+        color: #658113; }
+
+/*==============
+    HEADER
+==============*/
+header#masthead {
+  border-bottom: 1px solid #a8a3a3; }
+  header#masthead .site-title {
+    color: #658113;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold; }
+  header#masthead nav a {
+    text-transform: uppercase;
+    font-size: 0.9em; }
+
+/*==============
+    PAGE
+==============*/
+#page main {
+  margin-bottom: 5em; }
+
+#page header.entry-header {
+  text-align: center; }
+  #page header.entry-header .entry-title {
+    font-weight: 400; }
+
+#page footer.entry-footer {
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 3px solid #658113;
+  margin: 1em 0;
+  padding: .3em 1.5em;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  border-radius: 5px;
+  display: inline-block; }
+  #page footer.entry-footer a {
+    color: #658113; }
+  #page footer.entry-footer:hover {
+    background-color: #658113; }
+    #page footer.entry-footer:hover a {
+      color: white; }
+
+/*==============
+    CONTACT
+==============*/
+.contact-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center; }
+  .contact-block .phone {
+    color: #658113; }
+    .contact-block .phone:hover {
+      color: #dff2a6; }
+
+div.wpcf7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  div.wpcf7 form {
+    max-width: 600px;
+    width: 100%; }
+  div.wpcf7 label, div.wpcf7 p, div.wpcf7 span {
+    width: 100%; }
+  div.wpcf7 .wpcf7-submit {
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 3px solid #658113;
+    padding: .3em 1.5em;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    border-radius: 5px;
+    background-color: white;
+    color: #658113;
+    display: block;
+    margin: auto; }
+    div.wpcf7 .wpcf7-submit:hover {
+      background-color: #658113; }
+      div.wpcf7 .wpcf7-submit:hover a {
+        color: white; }
+    div.wpcf7 .wpcf7-submit:hover {
+      color: white; }
+
+/*==============
+    HOME
+==============*/
+.home main h1 {
+  padding-bottom: 1em;
+  font-weight: 400; }
+
+.home main h2 {
+  padding-bottom: 1em;
+  font-weight: 400; }
+
+.home main h3 {
+  padding-bottom: 1em;
+  font-weight: 400; }
+
+.home main h4 {
+  padding-bottom: 1em;
+  font-weight: 400; }
+
+.home main h5 {
+  padding-bottom: 1em;
+  font-weight: 400; }
+
+.home main h6 {
+  padding-bottom: 1em;
+  font-weight: 400; }
+
+.home main .col-md-4:nth-of-type(2) {
+  border-right: 2px solid #dff2a6;
+  border-left: 2px solid #dff2a6; }
+
+.home main .summary-statement {
+  padding: 4em 0;
+  width: 100%;
+  text-align: center; }
+  .home main .summary-statement p {
+    width: 80%;
+    margin: auto; }
+
+.home main .main-2 {
+  background: url("https://enroll.jermaineforbes.com/wp-content/uploads/2018/01/graduation-caps-green-2.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 3em 0;
+  text-align: center;
+  color: white;
+  height: 500px; }
+  .home main .main-2 p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.1em; }
+
+.home main .main-3 {
+  background-color: #f8f9fa;
+  padding: 6em 0;
+  color: #1a1a1a; }
+  .home main .main-3 h3 {
+    text-align: center;
+    font-size: 1.5em; }
+  .home main .main-3 .linear-layer {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,f8f9fa+100&0+0,0.65+100 */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(248, 249, 250, 0.65)));
+    background: linear-gradient(to bottom, transparent 0%, rgba(248, 249, 250, 0.65) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6f8f9fa',GradientType=0 );
+    /* IE6-9 */ }
+  .home main .main-3 p {
+    padding: 0 1em;
+    text-align: center;
+    max-height: 100px;
+    overflow: hidden; }
+  .home main .main-3 .more {
+    text-align: center;
+    display: block;
+    color: #afde21;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 4em; }
+    .home main .main-3 .more:hover {
+      color: #658113; }
+  .home main .main-3 .circle-icon {
+    background: #658113;
+    border: 6px solid #dff2a6;
+    border-radius: 50%;
+    max-width: 110px;
+    max-height: 110px;
+    display: block;
+    margin: auto;
+    height: 100%;
+    margin: 1em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .home main .main-3 span.icon, .home main .main-3 svg.icon {
+    display: block;
+    font-size: 2em;
+    color: white; }
+
+.home main .main-4 {
+  background: url("https://enroll.jermaineforbes.com/wp-content/uploads/2018/01/call-center-2-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 3em 0;
+  color: white;
+  text-align: center; }
+  .home main .main-4 .icon {
+    color: #afde21;
+    margin: 0.5em auto;
+    display: block;
+    font-size: 3.5em; }
+  .home main .main-4 p {
+    width: 90%;
+    margin: auto;
+    font-size: 1.6em;
+    padding: 2em 0; }
+  .home main .main-4 h4 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.2em; }
+
+/*==============
+    FOOTER
+==============*/
+footer.site-footer {
+  background: #7B9C19;
+  width: 100%;
+  min-width: 320px;
+  color: white;
+  border-top: 3px solid #dff2a6; }
+  footer.site-footer a {
+    color: white; }
+    footer.site-footer a:hover {
+      color: #1a1a1a; }
+  footer.site-footer .widget-title {
+    margin-bottom: 1em; }
+  footer.site-footer #footer-widget {
+    border-bottom: 1px solid #658113; }
+    footer.site-footer #footer-widget .widget:nth-of-type(2) {
+      border-left: 1px solid #658113;
+      border-right: 1px solid #658113; }
+
+a {
+  color: #1a1a1a;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  a:hover {
+    color: #7B9C19;
+    text-decoration: none; }

@@ -1,0 +1,45 @@
+/*==============
+    PAGE
+==============*/
+
+#page{
+
+    main{
+        margin-bottom:5em;
+    }
+    header.entry-header{
+        text-align:center;
+
+        .entry-title{
+            
+            font-weight:400;
+        }
+    }
+
+    footer.entry-footer{
+
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 3px solid $green;
+        margin: 1em 0;
+        padding: .3em 1.5em;
+        transition: 0.3s all;
+        border-radius:5px;
+        display:inline-block;
+
+        a{
+            color:$green;
+        }
+
+        &:hover{
+            background-color:$green;
+            a{
+                color:white;
+            }
+
+        }
+
+    }
+}
+
+@import "contact";

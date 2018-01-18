@@ -1,0 +1,62 @@
+/*==============
+    CONTACT
+==============*/
+
+.contact-block{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+
+    .phone{
+        // font-size: 2em;
+        color:$green;
+        &:hover{
+            color:$lg3;
+        }
+    }
+}
+
+div.wpcf7{
+
+    display:flex;
+    justify-content: center;
+
+    form{
+
+        max-width:600px;
+        width: 100%;
+    }
+
+    label,p,span{
+        width:100%;
+    }
+
+
+
+    .wpcf7-submit{
+
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 3px solid $green;
+        padding: .3em 1.5em;
+        transition: 0.3s all;
+        border-radius:5px;
+
+
+
+        &:hover{
+            background-color:$green;
+            a{
+                color:white;
+            }
+
+        }
+        background-color:white;
+        color:$green;
+        display:block;
+        margin:auto;
+        &:hover{
+            color:white;
+        }
+    }
+}

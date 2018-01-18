@@ -1,0 +1,35 @@
+/*==============
+    FOOTER
+==============*/
+
+footer.site-footer{
+
+    background:$lg;
+    width:100%;
+    min-width:320px;
+    color:white;
+    border-top: 3px solid $lg3;
+
+    a{
+        color:white;
+
+        &:hover{
+            color:$black;
+        }
+    }
+
+    .widget-title{
+
+        margin-bottom:1em;
+        // text-align:center;
+    }
+
+    #footer-widget{
+        border-bottom:1px solid $green;
+
+        .widget:nth-of-type(2){
+            border-left: 1px solid $green;
+            border-right: 1px solid $green;
+        }
+    }
+}

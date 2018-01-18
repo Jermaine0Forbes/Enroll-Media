@@ -1,0 +1,147 @@
+/*==============
+    HOME
+==============*/
+
+.home{
+
+    main{
+
+        @each $num in $hNumber{
+            h#{$num}{
+                padding-bottom:1em;
+                font-weight:400;
+            }
+        }
+
+        .col-md-4:nth-of-type(2){
+            border-right: 2px solid $lg3;
+            border-left: 2px solid $lg3;
+        }
+
+        .summary-statement{
+            padding: 4em 0;
+            width:100%;
+            text-align:center;
+
+
+            p{
+                width:80%;
+                margin:auto;
+            }
+        }
+
+        .main-2{
+            background:url('https://enroll.jermaineforbes.com/wp-content/uploads/2018/01/graduation-caps-green-2.jpg');
+            background-repeat:no-repeat;
+            background-position: top;
+            background-size:cover;
+            padding:3em 0;
+            text-align:center;
+            color:white;
+            height:500px;
+
+            p{
+
+                width:80%;
+                margin:auto;
+                font-size:1.1em;
+            }
+
+        }
+        .main-3{
+            background-color:$lgr3;
+            padding:6em 0;
+            color:$black;
+
+            h3{
+                text-align:center;
+                font-size:1.5em;
+            }
+
+            .linear-layer{
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,f8f9fa+100&0+0,0.65+100 */
+                background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(248,249,250,0.65) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(248,249,250,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(248,249,250,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6f8f9fa',GradientType=0 ); /* IE6-9 */
+            }
+
+            p{
+                padding: 0 1em;
+                text-align:center;
+                max-height:100px;
+                overflow:hidden;
+
+            }
+
+            .more{
+                text-align:center;
+                display:block;
+                color:$lg2;
+                font-weight:bold;
+                font-size:1.2em;
+                margin-bottom:4em;
+                &:hover{
+                    color:$green;
+                }
+            }
+
+            .circle-icon{
+                background:$green;
+                border:6px solid $lg3;
+                border-radius:50%;
+                max-width: 110px;
+                max-height: 110px;
+                display: block;
+                margin: auto;
+                height: 100%;
+                margin: 1em auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            span.icon , svg.icon{
+                // text-align:center;
+                display:block;
+                font-size:2em;
+                color:white;
+            }
+
+        }
+
+        .main-4{
+            background:url('https://enroll.jermaineforbes.com/wp-content/uploads/2018/01/call-center-2-2.jpg');
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size:cover;
+            padding:3em 0;
+            color:white;
+            text-align:center;
+
+            .icon{
+                color:$lg2;
+                margin:0.5em auto;
+                display:block;
+                font-size:3.5em;
+            }
+
+            p{
+
+                width:90%;
+                margin:auto;
+                font-size:1.6em;
+                padding:2em 0;
+            }
+
+            h4{
+                text-transform: capitalize;
+                text-align:center;
+                font-size:1.2em;
+            }
+        }
+
+
+    }
+
+}

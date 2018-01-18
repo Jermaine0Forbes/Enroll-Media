@@ -1,0 +1,25 @@
+/*==============
+    HEADER
+==============*/
+
+header#masthead{
+
+    border-bottom:1px solid $liter-grey;
+
+    .site-title{
+        color: $green;
+        font-size: 2.5em;
+        text-transform:uppercase;
+        font-weight:bold;
+    }
+
+    nav{
+
+
+
+        a{
+            text-transform:uppercase;
+            font-size:0.9em;
+        }
+    }
+}

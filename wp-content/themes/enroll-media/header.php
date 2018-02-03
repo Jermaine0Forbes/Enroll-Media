@@ -37,14 +37,24 @@
 
 				</div>
 			</div>
-			<?php include('navigation.php'); ?>
-
         </div>
+
+            <div class="fluid sticky-menu">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="<?php echo get_theme_file_uri().'/img/enroll-logo-4.svg'; ?>" alt="logo">
+                        </div>
+                        <?php include('navigation.php'); ?>
+                    </div>
+                </div>
+            </div>
+
+
 	</header><!-- #masthead -->
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
         <div id="page-sub-header " class="sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
             <div class="container-fluid p-0">
-				<!-- <img  class="img-fluid" src="http://via.placeholder.com/1920x600" alt="placeholder"/> -->
                 <?php
                     echo do_shortcode('[smartslider3 slider=2]');
                 ?>

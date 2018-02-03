@@ -1,4 +1,4 @@
-<div class="row justify-content-center">
+<div  class=" col-md-8 row justify-content-start ">
 
     <nav class="navbar navbar-expand-xl  p-0 p-b-3">
 

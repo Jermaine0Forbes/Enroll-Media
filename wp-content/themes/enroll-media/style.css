@@ -81,9 +81,17 @@ header#masthead {
     font-size: 2.5em;
     text-transform: uppercase;
     font-weight: bold; }
+  header#masthead .sticky-menu {
+    width: 100%;
+    z-index: 100;
+    margin: 0; }
+    header#masthead .sticky-menu.on {
+      background-color: rgba(26, 26, 26, 0.7); }
+      header#masthead .sticky-menu.on a {
+        color: white; }
   header#masthead nav a {
     text-transform: uppercase;
-    font-size: 0.9em; }
+    font-size: 1em; }
 
 /*==============
     PAGE
@@ -201,14 +209,14 @@ div.wpcf7 {
     margin: auto; }
 
 .home main .main-2 {
-  background: url("https://enroll.jermaineforbes.com/wp-content/uploads/2018/01/graduation-caps-green-2.jpg");
+  background: url("https://enroll.jermaineforbes.com/wp-content/uploads/2018/01/graduation-caps-black-1.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   padding: 3em 0;
   text-align: center;
   color: white;
-  height: 500px; }
+  min-height: 400px; }
   .home main .main-2 p {
     width: 80%;
     margin: auto;

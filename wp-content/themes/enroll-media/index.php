@@ -20,19 +20,19 @@ get_header(); ?>
 				<div class="row justify-content-center flex-column">
 					<h2> We're higher education experts that make a difference.</h2>
 					<p>
-					We know that our success is dependent on the success of our clients. Our team will work with you to understand campaign objectives, establish target goals and analyze conversion performance constantly. SMS also allows fully customizable prospect targeting, ensuring that you will receive students who are most likely to succeed at your school.
+					We know that our success is dependent on the success of our clients. Our team will work with you to understand campaign objectives, establish target goals and analyze conversion performance constantly. EMS also allows fully customizable prospect targeting, ensuring that you will receive students who are most likely to succeed at your school.
 					</p>
 				</div>
 			</div>
 		</section><!--main-1 -->
 		<section class="main-2 ">
 			<div class="container">
-				<h2>Testing</h2>
+				<h2>We find the right students for your College</h2>
 				<p>
-					 Speed to lead is one of the most critical drivers of conversion. We have built our own custom dialing solution that allows us to get to prospects within minutes of them requesting information. This helps both contact and conversion rates and allows us to get to your leads before your competition.
+					When it comes to finding the right students for your college, university or higher education institution, lead quality matters. Here’s how we help you meet aggressive enrollment goals while maintaining compliance. Contact us today to learn how we can help you exceed your enrollment goals.
 				</p>
 				<div class="row justify-content-center">
-					<a class="basic-btn white" href="#">Testing</a>
+					<a class="basic-btn white" href="?page_id=23">Read More</a>
 				</div>
 			</div>
 		</section><!--main-2 -->

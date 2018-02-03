@@ -12,6 +12,19 @@ header#masthead{
         text-transform:uppercase;
         font-weight:bold;
     }
+    .sticky-menu{
+
+        width:100%;
+        z-index:100;
+        margin:0;
+
+        &.on{
+            background-color: transparentize($black,0.3);
+            a{
+                color:white;
+            }
+        }
+  }
 
     nav{
 
@@ -19,7 +32,7 @@ header#masthead{
 
         a{
             text-transform:uppercase;
-            font-size:0.9em;
+            font-size:1em;
         }
     }
 }

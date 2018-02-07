@@ -14,25 +14,20 @@
 
 get_header(); ?>
 
-		<main id="main primary" class="site-main  col-sm-12 col-md-12 col-lg-8" role="main">
+		<main id="main primary" class="site-main  col-sm-12 col-md-12 no-pad" role="main">
             <section class="content-area" >
-                <div class="container ">
-                    <div class="row justify-content-area ">
-                        <?php
-            			while ( have_posts() ) : the_post();
+                <?php
+    			while ( have_posts() ) : the_post();
 
-            				get_template_part( 'template-parts/content', 'page' );
+    				get_template_part( 'template-parts/content', 'page' );
 
-                            // If comments are open or we have at least one comment, load up the comment template.
-                            if ( comments_open() || get_comments_number() ) :
-                                comments_template();
-                            endif;
+                    // If comments are open or we have at least one comment, load up the comment template.
+                    if ( comments_open() || get_comments_number() ) :
+                        comments_template();
+                    endif;
 
-            			endwhile; // End of the loop.
-            			?>
-                    </div>
-
-                </div>
+    			endwhile; // End of the loop.
+    			?>
 
             </section><!-- #primary -->
 		</main><!-- #main -->

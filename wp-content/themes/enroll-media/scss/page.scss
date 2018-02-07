@@ -9,11 +9,16 @@
     }
     header.entry-header{
         text-align:center;
+        margin-top:3em ;
 
         .entry-title{
-            
+
             font-weight:400;
+            color:$green;
         }
+    }
+    .content{
+        min-height:500px;
     }
 
     footer.entry-footer{
@@ -26,6 +31,7 @@
         transition: 0.3s all;
         border-radius:5px;
         display:inline-block;
+        max-height:60px;
 
         a{
             color:$green;

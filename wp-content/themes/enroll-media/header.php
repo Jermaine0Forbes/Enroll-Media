@@ -24,7 +24,7 @@
 	<!-- <a class="skip-link screen-reader-text" href="#content"><?php //esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a> -->
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
 	<header id="masthead" class="site-header navbar-static-top" role="banner">
-        <div class="container">
+        <!-- <div class="container">
 			<div class="row justify-content-center">
 				<div class="enroll-brand">
                     <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
@@ -37,13 +37,15 @@
 
 				</div>
 			</div>
-        </div>
+        </div> -->
 
-            <div class="fluid sticky-menu">
+            <div class="fluid sticky-menu ">
                 <div class="container ">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="img-fluid" src="<?php echo get_theme_file_uri().'/img/enroll-logo-4.svg'; ?>" alt="logo">
+                            <a href="<?php echo esc_url( home_url( '/' )); ?>">
+                                <img class="img-fluid" src="<?php echo get_theme_file_uri().'/img/enroll-logo-6.svg'; ?>" alt="logo">
+                            </a>
                         </div>
                         <?php include('navigation.php'); ?>
                     </div>
@@ -63,6 +65,6 @@
     <?php endif; ?>
 	<div id="content" class="site-content">
 		<div class="container-fluid no-pad">
-			<?php $class = is_front_page()?"w-100":"row justify-content-center w-100"; ?>
+			<?php $class = "w-100"; ?>
 			<div class="<?php echo $class; ?>">
 	<?php endif; //!is_page_template(  ) && !is_page_template(  ) ?>

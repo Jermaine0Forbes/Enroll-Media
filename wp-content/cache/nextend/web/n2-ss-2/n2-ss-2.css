@@ -941,10 +941,6 @@ div#n2-ss-2 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-play {
 div#n2-ss-2 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-pause {
   display: none;
 }
-div#n2-ss-2 .nextend-bar-horizontal div * {
-  display: inline;
-  vertical-align: middle;
-}
 div#n2-ss-2 .n2-ss-control-bullet {
   visibility: hidden;
   text-align: center;
@@ -980,12 +976,6 @@ div#n2-ss-2 div.n2-bullet-thumbnail-container {
 
 div#n2-ss-2 .n2-style-07b80f0c82484b6d6258ed0a5cead109-heading{background: #000000;background: RGBA(0,0,0,0.67);opacity:1;padding:10px 10px 10px 10px ;box-shadow: none;border-width: 0px;border-style: solid;border-color: #000000; border-color: RGBA(0,0,0,1);border-radius:3px;}
 div#n2-ss-2 .n2-style-07b80f0c82484b6d6258ed0a5cead109-heading:Hover, div#n2-ss-2 .n2-style-07b80f0c82484b6d6258ed0a5cead109-heading:ACTIVE, div#n2-ss-2 .n2-style-07b80f0c82484b6d6258ed0a5cead109-heading:FOCUS{background: #000000;background: RGBA(0,0,0,0.67);}
-
-div#n2-ss-2 .n2-style-0dfcc93d26ded644e92fb1d300cbbfe1-simple{background: #000000;background: RGBA(0,0,0,0.67);opacity:1;padding:20px 20px 20px 20px ;box-shadow: none;border-width: 0px;border-style: solid;border-color: #000000; border-color: RGBA(0,0,0,1);border-radius:0px;}
-
-div#n2-ss-2 .n2-font-160f3fbf4fe58b5a701ceff068b6fb4d-simple{font-family: 'Montserrat';color: #ffffff;font-size:87.5%;text-shadow: none;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;letter-spacing: normal;word-spacing: normal;text-transform: none;vertical-align: middle;}
-
-div#n2-ss-2 .n2-font-5694dc379f9df4552c5ac191154451f0-simple{font-family: 'Montserrat';color: #ffffff;font-size:87.5%;text-shadow: none;line-height: 1.3;font-weight: normal;font-style: italic;text-decoration: none;text-align: left;letter-spacing: normal;word-spacing: normal;text-transform: none;vertical-align: middle;}
 
 div#n2-ss-2 .n2-style-832ad05d74b9882699375ac3a99be8dc-dot{background: #000000;background: RGBA(0,0,0,0.67);opacity:1;padding:0px 0px 0px 0px ;box-shadow: none;border-width: 0px;border-style: solid;border-color: #000000; border-color: RGBA(0,0,0,1);border-radius:0px;}
 div#n2-ss-2 .n2-style-832ad05d74b9882699375ac3a99be8dc-dot.n2-active, div#n2-ss-2 .n2-style-832ad05d74b9882699375ac3a99be8dc-dot:HOVER{}

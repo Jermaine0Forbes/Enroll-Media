@@ -14,6 +14,9 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
 .no-pad {
   padding: 0; }
 
+.no-mar {
+  margin: 0; }
+
 .fluid {
   width: 100%; }
 
@@ -41,16 +44,16 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
 .basic-btn {
   font-size: 1.2em;
   font-weight: bold;
-  border: 3px solid #658113;
+  border: 3px solid #107C10;
   margin: 1em 0;
   padding: .3em 1.5em;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
   border-radius: 5px;
   display: inline-block;
-  color: #658113; }
+  color: #107C10; }
   .basic-btn:hover {
-    background-color: #658113;
+    background-color: #107C10;
     color: white; }
     .basic-btn:hover a {
       color: white; }
@@ -59,17 +62,17 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
     border: 3px solid white; }
     .basic-btn.white:hover {
       background-color: white;
-      color: #658113; }
+      color: #107C10; }
       .basic-btn.white:hover a {
-        color: #658113; }
+        color: #107C10; }
   .basic-btn.lite-green {
-    color: #dff2a6;
-    border: 3px solid #dff2a6; }
+    color: #6DCB6D;
+    border: 3px solid #6DCB6D; }
     .basic-btn.lite-green:hover {
-      background-color: #dff2a6;
-      color: #658113; }
+      background-color: #6DCB6D;
+      color: #107C10; }
       .basic-btn.lite-green:hover a {
-        color: #658113; }
+        color: #107C10; }
 
 /*==============
     HEADER
@@ -77,7 +80,7 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
 header#masthead {
   border-bottom: 1px solid #a8a3a3; }
   header#masthead .site-title {
-    color: #658113;
+    color: #107C10;
     font-size: 2.5em;
     text-transform: uppercase;
     font-weight: bold; }
@@ -86,7 +89,7 @@ header#masthead {
     z-index: 100;
     margin: 0; }
     header#masthead .sticky-menu.on {
-      background-color: rgba(26, 26, 26, 0.7); }
+      background-color: rgba(26, 26, 26, 0.8); }
       header#masthead .sticky-menu.on a {
         color: white; }
   header#masthead nav a {
@@ -100,24 +103,30 @@ header#masthead {
   margin-bottom: 5em; }
 
 #page header.entry-header {
-  text-align: center; }
+  text-align: center;
+  margin-top: 3em; }
   #page header.entry-header .entry-title {
-    font-weight: 400; }
+    font-weight: 400;
+    color: #107C10; }
+
+#page .content {
+  min-height: 500px; }
 
 #page footer.entry-footer {
   font-size: 1.2em;
   font-weight: bold;
-  border: 3px solid #658113;
+  border: 3px solid #107C10;
   margin: 1em 0;
   padding: .3em 1.5em;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
   border-radius: 5px;
-  display: inline-block; }
+  display: inline-block;
+  max-height: 60px; }
   #page footer.entry-footer a {
-    color: #658113; }
+    color: #107C10; }
   #page footer.entry-footer:hover {
-    background-color: #658113; }
+    background-color: #107C10; }
     #page footer.entry-footer:hover a {
       color: white; }
 
@@ -134,9 +143,9 @@ header#masthead {
           flex-direction: column;
   text-align: center; }
   .contact-block .phone {
-    color: #658113; }
+    color: #107C10; }
     .contact-block .phone:hover {
-      color: #dff2a6; }
+      color: #6DCB6D; }
 
 div.wpcf7 {
   display: -webkit-box;
@@ -148,22 +157,30 @@ div.wpcf7 {
   div.wpcf7 form {
     max-width: 600px;
     width: 100%; }
-  div.wpcf7 label, div.wpcf7 p, div.wpcf7 span {
+  div.wpcf7 label {
+    display: block; }
+  div.wpcf7 span .wpcf7-text {
     width: 100%; }
+  div.wpcf7 .wpcf7-checkbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
   div.wpcf7 .wpcf7-submit {
     font-size: 1.2em;
     font-weight: bold;
-    border: 3px solid #658113;
+    border: 3px solid #107C10;
     padding: .3em 1.5em;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
     border-radius: 5px;
     background-color: white;
-    color: #658113;
+    color: #107C10;
     display: block;
     margin: auto; }
     div.wpcf7 .wpcf7-submit:hover {
-      background-color: #658113; }
+      background-color: #107C10; }
       div.wpcf7 .wpcf7-submit:hover a {
         color: white; }
     div.wpcf7 .wpcf7-submit:hover {
@@ -197,8 +214,8 @@ div.wpcf7 {
   font-weight: 400; }
 
 .home main .col-md-4:nth-of-type(2) {
-  border-right: 2px solid #dff2a6;
-  border-left: 2px solid #dff2a6; }
+  border-right: 2px solid #6DCB6D;
+  border-left: 2px solid #6DCB6D; }
 
 .home main .summary-statement {
   padding: 4em 0;
@@ -246,15 +263,15 @@ div.wpcf7 {
   .home main .main-3 .more {
     text-align: center;
     display: block;
-    color: #afde21;
+    color: #44ae44;
     font-weight: bold;
     font-size: 1.2em;
     margin-bottom: 4em; }
     .home main .main-3 .more:hover {
-      color: #658113; }
+      color: #107C10; }
   .home main .main-3 .circle-icon {
-    background: #658113;
-    border: 6px solid #dff2a6;
+    background: #107C10;
+    border: 6px solid #6DCB6D;
     border-radius: 50%;
     max-width: 110px;
     max-height: 110px;
@@ -285,7 +302,7 @@ div.wpcf7 {
   color: white;
   text-align: center; }
   .home main .main-4 .icon {
-    color: #afde21;
+    color: #44ae44;
     margin: 0.5em auto;
     display: block;
     font-size: 3.5em; }
@@ -303,11 +320,11 @@ div.wpcf7 {
     FOOTER
 ==============*/
 footer.site-footer {
-  background: #7B9C19;
+  background: #239823;
   width: 100%;
   min-width: 320px;
   color: white;
-  border-top: 3px solid #dff2a6; }
+  border-top: 3px solid #6DCB6D; }
   footer.site-footer a {
     color: white; }
     footer.site-footer a:hover {
@@ -315,15 +332,17 @@ footer.site-footer {
   footer.site-footer .widget-title {
     margin-bottom: 1em; }
   footer.site-footer #footer-widget {
-    border-bottom: 1px solid #658113; }
+    border-bottom: 1px solid #107C10; }
     footer.site-footer #footer-widget .widget:nth-of-type(2) {
-      border-left: 1px solid #658113;
-      border-right: 1px solid #658113; }
+      border-left: 1px solid #107C10;
+      border-right: 1px solid #107C10; }
+  footer.site-footer .footer-social a {
+    font-size: 2em; }
 
 a {
   color: #1a1a1a;
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
   a:hover {
-    color: #7B9C19;
+    color: #239823;
     text-decoration: none; }

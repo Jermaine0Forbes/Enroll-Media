@@ -27,11 +27,18 @@ div.wpcf7{
         width: 100%;
     }
 
-    label,p,span{
+    label{
+        display:block;
+    }
+
+    span .wpcf7-text{
         width:100%;
     }
 
-
+    .wpcf7-checkbox{
+        display:flex;
+        justify-content: space-around;
+    }
 
     .wpcf7-submit{
 

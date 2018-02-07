@@ -12,17 +12,21 @@ Text Domain: wp-bootstrap-starter
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
 */
 
+
+$green-map-3: (green:#658113, lite-green: #7B9C19, liter-green: #afde21, litest-green: #dff2a6, dark-green:#46590d,  darker-green:#232c07, darkest-green:#111603);
+$green-map-2: (green:#009934, lite-green: #14B74B, liter-green: #3BBD67, litest-green: #5DD084, dark-green:#007D2A,  darker-green:#003713, darkest-green:#001F0A);
+$green-map:(green:#107C10, lite-green: #239823, liter-green: #44ae44, litest-green: #6DCB6D, dark-green:#005f00,  darker-green:#001b00, darkest-green:#000B00);
 $litest-grey: #f8f9fa;
 $liter-grey:#a8a3a3;
 $lite-grey:#837c7c;
 $grey: #635E5E;
-$darkest-green:#111603;
-$darker-green:#232c07;
-$dark-green:#46590d;
-$green : #658113;
-$lite-green: #7B9C19;
-$liter-green:#afde21 ;
-$litest-green:#dff2a6;
+$darkest-green:map-get($green-map,darkest-green);
+$darker-green:map-get($green-map,darker-green);
+$dark-green:map-get($green-map,dark-green);
+$green : map-get($green-map,green);
+$lite-green: map-get($green-map,lite-green);
+$liter-green:map-get($green-map,liter-green);
+$litest-green:map-get($green-map,litest-green);
 $black : #1a1a1a;
 $dg:$dark-green ;
 $dg2:$darker-green ;
@@ -37,6 +41,10 @@ $hNumber : (1,2,3,4,5,6);
 
 .no-pad{
     padding:0;
+}
+
+.no-mar{
+    margin:0;
 }
 
 .fluid{

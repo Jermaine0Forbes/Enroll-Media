@@ -941,10 +941,6 @@ div#n2-ss-2 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-play {
 div#n2-ss-2 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-pause {
   display: none;
 }
-div#n2-ss-2 .nextend-bar-horizontal div * {
-  display: inline;
-  vertical-align: middle;
-}
 div#n2-ss-2 .n2-ss-control-bullet {
   visibility: hidden;
   text-align: center;
